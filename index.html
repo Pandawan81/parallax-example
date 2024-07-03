@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./reset.css" />
+    <style>
+        .container {
+            background-color: #0000ff;
+            background-image: url('./assets/spriteback.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .container .layer {
+            height: 100%;
+            position: absolute;
+        }
+
+        .header {
+            background-image: url('./assets/header.png');
+            background-attachment: fixed;
+            background-size: 1280px 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 1280px;
+        }
+
+        .botella {
+            background-image: url('./assets/spritebotella.png');
+            background-attachment: fixed;
+            background-size: 1280px 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 1280px;
+        }
+
+        .legales {
+            background-image: url('./assets/spritelegales.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            width: 1080px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="layer header"></div>
+        <div class="layer botella"></div>
+        <div class="layer legales"></div>
+    </div>
+</body>
+
+</html>
